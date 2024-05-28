@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="age">Your age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="color">Favorite color:</label>
+        <select id="color" name="color" required>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Orange">Orange</option>
+            <option value="Purple">Purple</option>
+            <option value="Pink">Pink</option>
+            <option value="White">White</option>
+            <option value="Black">Black</option>
+        </select><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other" required>
+        <label for="other">Other</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h1>{{msg}}</h1>
+</body>
+</html>
+
